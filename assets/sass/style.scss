@@ -1,0 +1,38 @@
+// ======= Bourbon Import ========
+@import "bourbon/bourbon";
+
+// ======= Colors =======
+$default-color: #E8E8E8; // Light Gray
+$colorPrimary: #4C6BA0; // Cobalt Gray
+$colorSecondary: #303030; // Dark Gray-Black
+
+// ======= Font Size =======
+$default-font-size: 10px;
+
+// ======= Font Styles =======
+$default-font-family:'Open Sans', sans-serif;
+
+/* ======= ======= =======  mixins (defined)  ======= ======= ======= */
+@mixin border-radius($radius) {
+  -webkit-border-radius: $radius;
+     -moz-border-radius: $radius;
+      -ms-border-radius: $radius;
+       -o-border-radius: $radius;
+          border-radius: $radius;
+}
+@mixin shader($opacity) {
+    opacity: $opacity;
+}
+
+// ======= Imports =======
+@import 'navBar';
+@import 'index';
+@import 'about';
+@import 'projects';
+@import 'contact';
+@import 'footer';
+
+// ======= General =======
+body {
+    background-color: #343A40;
+}
