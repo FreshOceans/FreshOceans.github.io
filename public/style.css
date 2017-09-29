@@ -1,4 +1,12 @@
 /* ======= ======= =======  mixins (defined)  ======= ======= ======= */
+/* change the brand and text color */
+.navbar-custom .navbar-nav .nav-link {
+  color: #303030; }
+
+.navbar-custom .nav-item.active .nav-link,
+.navbar-custom .nav-item:hover .nav-link {
+  color: #3C82F5; }
+
 #name-title {
   margin-top: 170px; }
 
@@ -17,9 +25,6 @@
   background-position: center;
   background-repeat: no-repeat;
   height: 500px; }
-
-.about {
-  padding-top: 50px; }
 
 @media (min-width: 576px) and (max-width: 767px) {
   .about-text {
@@ -61,14 +66,14 @@ footer {
 .social-link:not(:first-of-type)::before {
   content: '|';
   display: inline-block;
-  color: rgba(255, 255, 255, 0.6); }
+  color: rgba(0, 0, 0, 0.6); }
 
 .social-link a {
-  color: white;
+  color: black;
   display: inline-block;
   margin: 0 20px 0 20px; }
 
 body {
-  background-color: #343A40; }
+  background-color: #F8F9FA; }
 
 /*# sourceMappingURL=style.css.map */
