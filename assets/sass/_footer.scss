@@ -15,7 +15,7 @@ footer {
 }
 
 .social-link:not(:first-of-type)::before {
-    content: '/';
+    content: '|';
     display: inline-block;
     color: transparentize(white, 0.4);
 }

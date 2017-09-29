@@ -1,8 +1,14 @@
 /* ======= ======= =======  mixins (defined)  ======= ======= ======= */
+#name-title {
+  margin-top: 170px; }
+
 #name {
   margin-top: 50px; }
 
-.about-title {
+#about-title {
+  margin-bottom: 75px; }
+
+.about-image {
   background: url(../images/MP.jpg);
   background-size: contain;
   background-position: center;
@@ -10,6 +16,9 @@
 
 .about {
   padding-top: 50px; }
+
+#projects-title {
+  margin-bottom: 75px; }
 
 .projects {
   padding-top: 50px; }
@@ -22,8 +31,14 @@ img {
   font-size: 25px;
   font-family: "Croissant One", cursive; }
 
+.contact {
+  margin-bottom: 75px; }
+
 .contact-container {
   margin-top: 50px; }
+
+#contact-title {
+  margin-bottom: 75px; }
 
 footer {
   margin-top: 30px;
@@ -31,7 +46,7 @@ footer {
   text-align: center; }
 
 .social-link:not(:first-of-type)::before {
-  content: '/';
+  content: '|';
   display: inline-block;
   color: rgba(255, 255, 255, 0.6); }
 

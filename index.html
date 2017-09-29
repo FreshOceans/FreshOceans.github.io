@@ -30,6 +30,9 @@
 			      <li class="nav-item">
 			        <a class="nav-link" href="#about">About</a>
 			      </li>
+				  <!-- <li class="nav-item">
+					<a class="nav-link" href="#toolbox">Toolbox</a>
+				  </li> -->
 			      <li class="nav-item">
 			        <a class="nav-link" href="#projects">Projects</a>
 			      </li>
@@ -43,31 +46,42 @@
 			<!-- ===== Home Splash ===== -->
 			<div class="jumbotron jumbotron-fluid bg-dark text-white" style="height:800px">
 			  <div class="container text-center">
-			    <h1 class="display-3">Michael Perez</h1>
-			    <p class="lead">Leadership is Influence.</p>
+			    <h1 class="display-3" id="name-title">Michael Perez</h1>
+			    <p class="lead">Leadership is Influence with Teamwork.</p>
 			  </div>
 			</div>
 
 			<!-- ===== About Section ===== -->
 			<section class="about text-center" id="about">
 				<div class="container-fluid about-container bg-dark text-white" style="height:800px">
-					<h2 class="display-4">About</h2>
+					<h2 class="display-4" id="about-title">About</h2>
 					<div class="row">
-						<div class="col-md-6 about-title d-flex align-items-center justify-content-center rounded">
+						<div class="col-md-6 about-image d-flex align-items-center justify-content-center">
 						</div>
 						<div class="col-lg-4 col-md-6 about-text d-flex flex-column justify-content-center">
-							<p>I have been involved with technology since I first got my hands on a computer when I was eight years old. Since then I have actively kept up with as much technology as I can handle. Outside of the world of coding I am an avid gamer. I am both a console owner and PC user, ranging from Xbox 1 to Nintendo Switch to League of Legends.</p>
-							<p>Taking another step away from computers comes my passion for sports. I grew up playing sports, but in the end I fell in love with soccer. Barcelona is my La Liga team while across the sea, Manchester United holds my EPL slot. Rock climbing is a hobby I took up last year and have enoyed it tremednously. It is a sport in which puzzle solving is at its finest, it is you against the wall and there is a solution, you just need to find it.</p>
-							<p>Traveling is another hobby I enjoy. The desire to experience new culture and be immeresed in a new environment ranging from langauge, architecture, land, climate, art, people, and especially food.</p>
+							<p>My passion for technology was born when I realized how a computer impacted my life when I was eight years old. Since then a deep desire within me for the advancement of medical techology involving A.I. and machine learning has directed me to software development.</p>
+							<p>Outside of tech I am an competitive gamer, martial artist, and rock climber. Balance of the mind, body and spirit helps me focus on the important things in life and propel forward.</p>
 						</div>
 					</div> <!-- == close row == -->
 				</div> <!-- == close container fluid == -->
 			</section> <!-- == close about section == -->
 
+			<!-- ===== Toolbox Section ===== -->
+			<section class="toolbox text-center" id="toolbox">
+				<div class=" container-fluid toolbox-container bg-dark text-white" style="height:800px">
+					<h2 class="display-4" id="toolbox-title">Toolbox</h2>
+					<div class="row">
+						<div class="col-md-8">
+							<!-- List of Technology Knowledge -->
+						</div>
+					</div>
+				</div>
+			</section>
+
 			<!-- ===== Projects Section ===== -->
 			<section class="projects text-center" id="projects">
 				<div class="container-fluid projects-container bg-dark text-white" style="height:800px">
-					<h2 class="display-4">Projects</h2>
+					<h2 class="display-4" id="projects-title">Projects</h2>
 					<div class="row">
 						<div class="col-md-6 project-text d-flex flex-column justify-content-center">
 							<p class="project-name">SipSearcher</p>
@@ -87,16 +101,16 @@
 			<!-- ===== Contact Section ===== -->
 			<section class="contact text-center" id="contact">
 				<div class="contact-container d-flex align-items-center flex-column justify-content-center h-100 bg-dark text-white" style="height:800px">
-				    <h1 class="display-5">Contact</h1>
+				    <h1 class="display-5" id="contact-title">Contact</h1>
 				    <form action="https://formspree.io/freshoceans@gmail.com" method="POST">
 				        <div class="form-group">
-				            <input class="form-control form-control-lg" placeholder="Name" name="name" type="text">
+				            <input class="form-control form-control-lg" placeholder="Please enter a name" name="name" type="text">
 				        </div>
 				        <div class="form-group">
-				            <input class="form-control form-control-lg" placeholder="Email" name="_replyto" type="email">
+				            <input class="form-control form-control-lg" placeholder="Please enter an email" name="_replyto" type="email">
 				        </div>
 						<div class="form-group">
-							<textarea class="form-control form-control-lg" placeholder="Message" type="text" rows="3"></textarea>
+							<textarea class="form-control form-control-lg" placeholder="Please enter a message" type="text" rows="3"></textarea>
 						</div>
 				        <div class="form-group">
 				            <button class="btn btn-info btn-lg btn-block" value="Send">Send</button>
@@ -109,7 +123,7 @@
 			<footer>
 				<div class="container bg-dark text-white">
 					<div class="row">
-						<div class="col-lg-6">
+						<div class="col-md-6">
 							<ul class="list-inline social-links">
 								<li class="list-inline-item social-link"><a href="https://github.com/FreshOceans">Github</a></li>
 								<li class="list-inline-item social-link"><a href="https://linkedin.com/in/mperez03">LinkedIn</a></li>
@@ -117,7 +131,7 @@
 								<li class="list-inline-item social-link"><a href="mailto:freshoceans@gmail.com">Email</a></li>
 							</ul>
 						</div>
-						<div class="col-lg-6">
+						<div class="col-md-6">
 							<p>© 2017 by Michael Perez</p>
 						</div>
 					</div>
