@@ -36,6 +36,9 @@
 #projects-title {
   margin-bottom: 75px; }
 
+.project-title {
+  margin-bottom: 20px; }
+
 .projects {
   padding-top: 50px; }
 
@@ -45,9 +48,12 @@ img {
   margin-bottom: 10px;
   border-radius: 5px; }
 
-.project-name {
+.project-ss {
   font-size: 25px;
   font-family: "Croissant One", cursive; }
+
+.project-ciclo {
+  font-size: 25px; }
 
 .contact {
   margin-bottom: 75px; }
