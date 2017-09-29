@@ -2,15 +2,26 @@
     margin-bottom: 75px;
 }
 
-
 .about-image {
     background: url(../images/MP.jpg);
     background-size: contain;
     background-position: center;
     background-repeat: no-repeat;
-    // height: 50vw;
+    height: 500px;
 }
 
 .about {
     padding-top: 50px;
+}
+
+.about-text {
+
+}
+.about-text {
+    @media (min-width: 576px) and (max-width: 767px) {
+        margin-top: 30px;
+    };
+    @media (max-width: 575px) {
+        margin-top: 30px;
+    };
 }
