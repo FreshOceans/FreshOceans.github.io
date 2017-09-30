@@ -1,7 +1,7 @@
 /* ======= ======= =======  mixins (defined)  ======= ======= ======= */
 /* change the brand and text color */
 .navbar-custom .navbar-nav .nav-link {
-  color: #303030; }
+  color: #12A752; }
 
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
